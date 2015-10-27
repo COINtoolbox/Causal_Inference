@@ -22,7 +22,9 @@ camaPlots <- function(camaList, verbose=TRUE, outputDir=NULL) {
   
   
   ###### ADD YOUR CODE HERE!
-
+  qgraph(estDAG,type="factorial",legend=FALSE,vsize=7.75,
+         label.scale=F,label.cex=1,edge.color = "black",
+         transparency = F,bg=F,diag=F,mar=c(2,2,2,2),vTrans=235,arrows=T)
   
   
   # If the user requires to write the plots to files...

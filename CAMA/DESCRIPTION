@@ -10,10 +10,12 @@ License: GPL (>= 2)
 Suggests:
     CAM,
     data.table,
-    testthat
+    testthat,
+    qgraph
 Imports:
     CAM,
     data.table,
-    testthat
+    testthat,
+    qgraph
 NeedsCompilation: no
 LazyData: true
