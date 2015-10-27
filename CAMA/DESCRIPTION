@@ -1,0 +1,19 @@
+Package: CAMA
+Type: Package
+Title: CAMA - Causal Additive Model for Astronomers
+Version: 0.1
+Date: 2015-10-27
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: GPL (>= 2)
+Suggests:
+    CAM,
+    data.table,
+    testthat
+Imports:
+    CAM,
+    data.table,
+    testthat
+NeedsCompilation: no
+LazyData: true
